@@ -1,0 +1,19 @@
+{
+  "name": "farcaster-change-custody",
+  "version": "0.0.1",
+  "description": "A script to change custody of a Farcaster FID",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.mts"
+  },
+  "author": "devanoneth",
+  "license": "MIT",
+  "dependencies": {
+    "@farcaster/hub-web": "^0.8.4",
+    "@inquirer/prompts": "^4.2.1",
+    "@types/node": "^20.11.25",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.7.1",
+    "viem": "^1.12.2"
+  }
+}
